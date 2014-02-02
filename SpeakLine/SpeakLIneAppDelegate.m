@@ -16,6 +16,7 @@
 - (id)init {
     self = [super init];
     if (self) {
+        // Test Git integration
         // Logs can help the beginner understand what
         // is happening and hunt down bugs.
         NSLog(@"init");
