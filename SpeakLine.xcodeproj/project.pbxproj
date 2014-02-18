@@ -465,6 +465,7 @@
 				A3AC4F88188F983F00028DB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3AC4F89188F983F00028DB8 /* Build configuration list for PBXNativeTarget "SpeakLineTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +474,7 @@
 				A3AC4F8B188F983F00028DB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -68,7 +68,6 @@
 {
     NSString *v = [_voices objectAtIndex:row];
     NSDictionary *dict = [NSSpeechSynthesizer attributesForVoice:v];
-    //NSInteger row = [_tableView selectedRow];
     return [dict objectForKey:NSVoiceName];
 }
 
