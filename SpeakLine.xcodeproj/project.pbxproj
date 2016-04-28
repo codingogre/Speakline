@@ -199,7 +199,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = SpeakLIne;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Sixpanel LLC";
 				TargetAttributes = {
 					A3AC4F75188F983F00028DB8 = {
@@ -328,6 +328,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -388,6 +389,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpeakLine/SpeakLine-Prefix.pch";
 				INFOPLIST_FILE = "SpeakLine/SpeakLine-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sixpanel.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -401,6 +403,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpeakLine/SpeakLine-Prefix.pch";
 				INFOPLIST_FILE = "SpeakLine/SpeakLine-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sixpanel.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -422,6 +425,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "SpeakLineTests/SpeakLineTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sixpanel.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -440,6 +444,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpeakLine/SpeakLine-Prefix.pch";
 				INFOPLIST_FILE = "SpeakLineTests/SpeakLineTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sixpanel.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
